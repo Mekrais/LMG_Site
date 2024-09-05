@@ -6,14 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LMG</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 
 <body style="font-family: Helvetica, Arial, sans-serif;">
-    <div class="mx-auto h-dvh bg-none"
+    <div class="relative mx-auto h-dvh bg-center bg-cover bg-no-repeat"
         style="background-image: url(https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/375820/ss_48cad8f74bae909b10040b543fc4f83f70374d5a.1920x1080.jpg?t=1692721273">
         <div
             class="absolute top-0 left-0 w-[50vw] h-full bg-gradient-to-r from-black/80 to-transparent pointer-events-none z-0 fade">
         </div>
+        <!-- <button
+            class="absolute top-1/2 right-[95%] transform -translate-y-1/2 w-16 h-16 border-neutral-300 border-[3px] rounded-full bg-white hover:border-black transition-colors flex justify-center items-center"
+            id="prev-btn">
+            <i class="arrow w-4 h-4 border-solid border-black border-l-[3px] border-b-[3px] transform rotate-45"></i>
+        </button>
+        <button
+            class="absolute top-1/2 left-[95%] transform -translate-y-1/2 w-16 h-16 border-neutral-300 border-[3px] rounded-full bg-white hover:border-black transition-colors flex justify-center items-center"
+            id="next-btn">
+            <i class="arrow w-4 h-4 border-solid border-black border-r-[3px] border-t-[3px] transform rotate-45"></i>
+        </button> -->
         <div class="flex justify-between py-6 px-12 shadow-2xl bg-neutral-950 opacity-95 text-white w-dvw fixed top-0 border-b-2 border-solid z-50"
             style="border-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) 20%, rgba(249, 115, 22, 1) 50%, rgba(0, 0, 0, 0.9) 80%) 1;">
             <a href="#" class="p-4"><img src="" alt="Company Logo"></a>
@@ -42,7 +53,7 @@
                 <div class="skew-x-[16deg]">Login</div>
             </button>
         </div>
-        <div class="container mx-auto h-dvh text-white flex items-center">
+        <div class="container h-dvh text-white flex items-center pl-24">
             <div class="flex flex-col z-10">
                 <h1 class="font-bold py-12 text-4xl">
                     Lorem Ipsum
